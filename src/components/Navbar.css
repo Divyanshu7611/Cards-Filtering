@@ -1,0 +1,26 @@
+/* Navbar.css */
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar:hover {
+    background-color: #1f2937; /* Darken the background color on hover */
+  }
+  
+  .logo {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar:hover .logo {
+    color: #f3f4f6; /* Change logo color on hover */
+  }
+  
+  .logo.animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .logo.animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
